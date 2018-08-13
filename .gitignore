@@ -102,3 +102,7 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+-------------
+3_Tensorboard, Saver/model/*
+3_Tensorboard, Saver/logs/*

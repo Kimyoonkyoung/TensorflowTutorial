@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b4626ca-31d5-43c1-8014-cddfcd2ceba5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Tensorflow Basic/1_Basic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Tensorflow Basic/2_Variable.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_Tensorflow Basic/3_LinearRegression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Neural Network Basic/1_Classification.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_Neural Network Basic/2_DeepNN.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Tensorboard, Saver/1_Saver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_Tensorboard, Saver/2_TensorBoard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_Tensorboard, Saver/3_TensorBoard2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Tensorboard, Saver/model/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Tensorboard, Saver/model/dnn.ckpt-2.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Tensorboard, Saver/model/dnn.ckpt-2.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Tensorboard, Saver/model/dnn.ckpt-2.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,9 +18,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/TensorflowTutorial$3_TensorBoard2.coverage" NAME="3_TensorBoard2 Coverage Results" MODIFIED="1534125743002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_Tensorboard, Saver" />
     <SUITE FILE_PATH="coverage/TensorflowTutorial$Basic.coverage" NAME="Basic Coverage Results" MODIFIED="1533866947533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_Tensorflow Basic" />
     <SUITE FILE_PATH="coverage/TensorflowTutorial$2_Variable.coverage" NAME="2_Variable Coverage Results" MODIFIED="1533867770066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_Tensorflow Basic" />
-    <SUITE FILE_PATH="coverage/TensorflowTutorial$1_Saver.coverage" NAME="1_Saver Coverage Results" MODIFIED="1533889922921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_Tensorboard, Saver" />
+    <SUITE FILE_PATH="coverage/TensorflowTutorial$2_TensorBoard.coverage" NAME="2_TensorBoard Coverage Results" MODIFIED="1534125504453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_Tensorboard, Saver" />
+    <SUITE FILE_PATH="coverage/TensorflowTutorial$1_Saver.coverage" NAME="1_Saver Coverage Results" MODIFIED="1534124186439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_Tensorboard, Saver" />
     <SUITE FILE_PATH="coverage/TensorflowTutorial$3_LinearRegression.coverage" NAME="3_LinearRegression Coverage Results" MODIFIED="1533879672873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_Tensorflow Basic" />
     <SUITE FILE_PATH="coverage/TensorflowTutorial$1_Classification.coverage" NAME="1_Classification Coverage Results" MODIFIED="1533883687894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_Neural Network Basic" />
     <SUITE FILE_PATH="coverage/TensorflowTutorial$2_DeepNN.coverage" NAME="2_DeepNN Coverage Results" MODIFIED="1533883710867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_Neural Network Basic" />
@@ -30,14 +32,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="1_Saver.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/3_Tensorboard, Saver/1_Saver.py">
+      <file leaf-file-name="2_TensorBoard.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3_Tensorboard, Saver/2_TensorBoard.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="158">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
-                <element signature="e#47#70#0" expanded="true" />
+                <element signature="e#46#69#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3_TensorBoard2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/3_Tensorboard, Saver/3_TensorBoard2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="637">
+              <caret line="79" column="61" selection-start-line="79" selection-start-column="61" selection-end-line="79" selection-end-column="61" />
+              <folding>
+                <element signature="e#46#69#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="session.py" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/lib/python3.6/site-packages/tensorflow/python/client/session.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="1290" selection-start-line="1290" selection-end-line="1290" />
             </state>
           </provider>
         </entry>
@@ -66,6 +89,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>data</find>
+      <find>logs</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -82,6 +106,8 @@
         <option value="$PROJECT_DIR$/2_Neural Network Basic/2_DeepNN.py" />
         <option value="$PROJECT_DIR$/2_Neural Network Basic/3_word2vec.py" />
         <option value="$PROJECT_DIR$/3_Tensorboard, Saver/1_Saver.py" />
+        <option value="$PROJECT_DIR$/3_Tensorboard, Saver/2_TensorBoard.py" />
+        <option value="$PROJECT_DIR$/3_Tensorboard, Saver/3_TensorBoard2.py" />
       </list>
     </option>
   </component>
@@ -95,9 +121,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="221" />
     <option name="y" value="23" />
-    <option name="width" value="1653" />
+    <option name="width" value="1358" />
     <option name="height" value="1381" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -155,7 +180,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1_Saver">
+  <component name="RunManager" selected="Python.3_TensorBoard2">
     <configuration name="1_Classification" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TensorflowTutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -213,7 +238,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="2_Variable" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="2_TensorBoard" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TensorflowTutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -221,18 +246,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1_Tensorflow Basic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_Tensorboard, Saver" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1_Tensorflow Basic/2_Variable.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_Tensorboard, Saver/2_TensorBoard.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="3_LinearRegression" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="3_TensorBoard2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TensorflowTutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -240,31 +265,31 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1_Tensorflow Basic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_Tensorboard, Saver" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1_Tensorflow Basic/3_LinearRegression.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_Tensorboard, Saver/3_TensorBoard2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.2_Variable" />
-      <item itemvalue="Python.3_LinearRegression" />
       <item itemvalue="Python.1_Classification" />
       <item itemvalue="Python.2_DeepNN" />
       <item itemvalue="Python.1_Saver" />
+      <item itemvalue="Python.2_TensorBoard" />
+      <item itemvalue="Python.3_TensorBoard2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.3_TensorBoard2" />
+        <item itemvalue="Python.2_TensorBoard" />
         <item itemvalue="Python.1_Saver" />
         <item itemvalue="Python.2_DeepNN" />
         <item itemvalue="Python.1_Classification" />
-        <item itemvalue="Python.3_LinearRegression" />
-        <item itemvalue="Python.2_Variable" />
       </list>
     </recent_temporary>
   </component>
@@ -282,22 +307,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="221" y="23" width="1653" height="1381" extended-state="0" />
+    <frame x="0" y="23" width="1358" height="1381" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23676012" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3411215" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49941927" visible="true" weight="0.17566729" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32943925" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49941927" visible="true" weight="0.21504559" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="SciView" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.35514018" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.23831776" />
       <window_info id="Favorites" sideWeight="0.5005807" side_tool="true" weight="0.21104904" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -401,10 +426,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/3_Tensorboard, Saver/1_Saver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="304">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
           <folding>
             <element signature="e#47#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_Tensorboard, Saver/2_TensorBoard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#46#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.6/site-packages/tensorflow/python/training/saver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="613">
+          <caret line="1755" column="31" selection-start-line="1755" selection-start-column="31" selection-end-line="1755" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.6/site-packages/tensorflow/python/client/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="1290" selection-start-line="1290" selection-end-line="1290" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_Tensorboard, Saver/3_TensorBoard2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="79" column="61" selection-start-line="79" selection-start-column="61" selection-end-line="79" selection-end-column="61" />
+          <folding>
+            <element signature="e#46#69#0" expanded="true" />
           </folding>
         </state>
       </provider>
