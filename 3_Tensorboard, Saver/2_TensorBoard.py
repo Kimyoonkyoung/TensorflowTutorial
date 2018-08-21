@@ -6,7 +6,7 @@ import numpy as np
 '''
 @ 여기서 집중할것!
 
-* name_scope :
+* name_scope : tensorboard 그래프에서 묶어서 보여주는 용도
 * tf.summary.scalar : 보고싶은 변수 지정
 '''
 
